@@ -66,6 +66,7 @@ class Historical extends Component {
               <tr>
                 <th>Name</th>
                 <th>Address</th>
+                <th>Image</th>
               </tr>
               {this.state.result.map(result => {
                 return (
@@ -73,7 +74,7 @@ class Historical extends Component {
                     <td>{result.name}</td>
                     <td>{result.address}</td>
                     <td>
-                      <img src={result.photo_reference} width="100px" />
+                      <img src={result.photo_reference} width="150px" height="150px" />
                     </td>
                   </tr>
                 );

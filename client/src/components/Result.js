@@ -1,5 +1,6 @@
 import React from 'react';
 import './components.css';
+import './Results.css';
 
 const Result = props => {
   //console.log(props.list.length);
@@ -11,6 +12,7 @@ const Result = props => {
           <tr>
             <th>Name</th>
             <th>Address</th>
+            <th>Image</th>
           </tr>
           {props.list.map(result => {
             return (

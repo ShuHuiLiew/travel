@@ -1,0 +1,16 @@
+.tabletable-striped{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.thstyle{
+    text-align: center;
+    padding: 8px;
+}
+
+.tdstyle{
+    text-align: center;
+    font-size: 30px;
+    padding: 8px;
+}

@@ -47,21 +47,21 @@ class Historical extends Component {
   render() {
     return (
       <div>
-        <div className="jumbotron text-center">
+        <div className="w3-jumbotron w3-text-center">
           <h1>Historical Searches</h1>
           <p>Previous search results</p>
         </div>
-        <div className="row container-fluid">
-          <div className="col-md-4 text-center">
+        <div className="w3-row w3-container-fluid">
+          <div className="w3-col-md-4 w3-text-center">
             <button
-              className="btn btn-primary btn-lg"
+              className="w3-btn w3-btn-primary w3-btn-lg"
               onClick={this.handleClick}
             >
               Delete All
             </button>
             <p />
           </div>
-          <table className="table table-striped">
+          <table className="w3-table w3-table-striped">
             <tbody>
               <tr>
                 <th>Name</th>

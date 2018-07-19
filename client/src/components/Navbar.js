@@ -5,12 +5,12 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-default navbar-fixed-top">
-          <div className="container-fluid">
-            <div className="navbar-header">
-              <a className="navbar-brand" href="#">TRAVEL</a>
+        <nav className="w3-navbar w3-navbar-default w3-navbar-fixed-top">
+          <div className="w3-container-fluid">
+            <div className="w3-navbar-header">
+              <a className="w3-navbar-brand" href="#">TRAVEL</a>
             </div>
-            <ul className="nav navbar-nav">
+            <ul className="w3-nav navbar-nav">
               <li>
                 <Link to="/">Home</Link>
               </li>

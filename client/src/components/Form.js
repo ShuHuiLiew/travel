@@ -44,20 +44,20 @@ class Form extends Component {
   render() {
     return (
       <div>
-        <div className="jumbotron text-center">
+        <div className="w3-jumbotron w3-text-center">
           <h1>Search Page</h1>
           <p>For searching the place you like.</p>
         </div>
 
-        <div className="container fluid">
-          <div className="col-sm-8 col-sm-offset-2">
+        <div className="w3-container w3-fluid">
+          <div className="w3-col-sm-8 w3-col-sm-offset-2">
             <form onSubmit={this.onSubmit}>
-              <div className="form-group">
+              <div className="w3-form-group">
                 <label htmlFor="addr">Enter address:</label>
                 <input
                   id="addr"
                   name="addr"
-                  className="form-control"
+                  className="w3-form-control"
                   type="text"
                   placeholder="Enter address..."
                   value={this.state.addr}

@@ -6,8 +6,8 @@ const Result = props => {
   //console.log(props.list.length);
 
   return (
-    <div className="w3-row w3-container-fluid">
-      <table className="w3-table table-striped">
+    <div className="row container-fluid">
+      <table className="table table-striped">
         <tbody>
           <tr>
             <th>Name</th>

@@ -6,7 +6,7 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <div className="w3-jumbotron w3-text-center">
+        <div className="jumbotron text-center">
           <h1>Welcome to Travel</h1>
           <p>Things you need to know while traveling.</p>
         </div>
